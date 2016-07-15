@@ -4,4 +4,4 @@ ENV PGADMIN_URL=http://downloads.sourceforge.net/phppgadmin/phpPgAdmin-5.1.tar.g
 
 RUN apk --no-cache add php-cli php-mcrypt php-curl php-pgsql postgresql-contrib
 RUN wget $PGADMIN_URL -qO - | tar zxf - && \
-    mv -v phpPgAdmin* /srv/www
+    mkdir /srv && mv -v phpPgAdmin* /srv/www
