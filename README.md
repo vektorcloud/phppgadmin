@@ -1,6 +1,6 @@
 # phpPgAdmin
 
-![circleci][circleci]
+[![circleci][circleci]](https://circleci.com/gh/vektorcloud/phppgadmin)
 
 Alpine-based phpPgAdmin image with nginx + php-fpm.
 
